@@ -6,10 +6,10 @@ export default class Character {
       throw new Error('The name must contain from 2 to 10 letters!');
     }
 
-    const listCharacters = ['Magician', 'Daemon', 'Zombie'];
+    const listCharacters = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
 
     if (!listCharacters.includes(type)) {
-      throw new Error('The value must be selected from the list: Magician, Daemon, Zombie!');
+      throw new Error('The value must be selected from the list: Bowman, Swordsman, Magician, Daemon, Undead, Zombie!');
     }
 
     this.name = name;
